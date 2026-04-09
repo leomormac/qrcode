@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            background-color: #007bff00;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .link-button {
+            display: block;
+            background-color: #ffffff;
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 15px;
+            padding: 18px;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .link-button:active {
+            transform: scale(0.98);
+            background-color: #f8f9fa;
+        }
+
+        /* Estilo para destacar um link específico, se quiser */
+        .highlight {
+            background-color: #007bff;
+            color: white;
+            border: none;
+        }
+
+        /* Estilo para a caixa em volta da imagem */
+.profile-img {
+    width: 150px; /* Ajuste para o tamanho que você quer */
+    height: 150px;
+    border-radius: 50%; /* Isso é o que cria o círculo perfeito */
+    overflow: hidden; /* Corta qualquer parte da imagem que saia do círculo */
+    margin: 0 auto 20px; /* Centraliza a imagem e dá um espaço embaixo */
+}
+
+/* Estilo para a imagem em si */
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem preencha o círculo sem ficar esticada ou achatada */
+}
+    </style>
+</head>
+<body>
+
+   <div class="container">
+        <div class="profile-img">
+            <img src="img/casalegal.png" alt="Minha foto de perfil">
+        </div>
+        
+        <h1>Acesse sua lista aqui!</h1>
+
+        <a href="https://drive.google.com/file/d/1gfjzcXJv7pPW7vwn1MscOcRgWQvLoBpM/view?usp=drive_link" class="link-button">Petrônio Portela</a>
+        <a href="https://drive.google.com/file/d/1X2M6qPQknli3FY9Se6fCJlW5LWT4qmqI/view?usp=drive_link" class="link-button">Parque Industrial</a>
+        <a href="https://drive.google.com/file/d/1b-qfRyeLx8jieaBpW-1LdAGuIfkLhvKB/view?usp=drive_link" class="link-button">Pedrinhas</a>
+       
+ </div>
+
+</body>
+</html>
